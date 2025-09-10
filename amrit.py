@@ -39,7 +39,7 @@ embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
 
 # ================== UI HEADER ==================
-st.title("BIG Chuchi BIG 🍑 Chatbot 💦")
+st.title("AMRIT Chatbot")
 st.write("Multi-Session Chat with PDF, YouTube & Web RAG")
 
 
@@ -284,4 +284,5 @@ for user_msg, bot_msg in st.session_state.messages_display:
     st.write(f"**You:** {user_msg}")
     st.write(f"**Assistant:** \n{bot_msg}")
     st.write("---")
+
 
