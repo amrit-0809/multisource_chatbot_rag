@@ -23,7 +23,7 @@ from youtube_transcript_api import YouTubeTranscriptApi
 
 # ================== MODELS ==================
 # load_dotenv(dotenv_path="a.env")
-GROQ_API_KEY = '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'   # better: os.getenv("GROQ_API_KEY")
+GROQ_API_KEY = 'I will put my key here'   
 
 if not GROQ_API_KEY:
     st.warning("Missing GROQ_API_KEY. Please add it to a.env")
@@ -284,3 +284,4 @@ for user_msg, bot_msg in st.session_state.messages_display:
     st.write(f"**You:** {user_msg}")
     st.write(f"**Assistant:** \n{bot_msg}")
     st.write("---")
+
